@@ -29,4 +29,4 @@ if __name__ == "__main__":
 
     mrr.loc[mrr.shape[0]] = record
 
-    mrr.to_csv("shiny/mrr.csv")
+    mrr.to_csv("shiny/mrr.csv", index = False)
